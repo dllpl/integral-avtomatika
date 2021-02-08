@@ -1,0 +1,349 @@
+
+/***** ����� �������������� ����� �������� � ����������� ���� �  intejy.ru �  mps.intejy.ru *****/
+
+/***************** ��� 2 ������ ������������ ������ � intejy.ru ***************** */
+/*.logo {position:absolute; top:53px; left:65px;}*/
+.logo {position:absolute; top:14px; left:39px;}
+.profile {background: url(../img/profile.gif) no-repeat; position:absolute; top:99px; left:54px; width:400px; height:57px}
+.tel {position:absolute; top:23px; left:450px; font:bold italic 17px Verdana; color:#ccc; white-space:nowrap}
+.tel span {font-weight:normal; color:#9ac}
+/********************************** */
+
+
+
+.slogan {position:absolute; top:1px; left:1px; color:#005aaa;}
+.blueBg {background-color:#005aaa}
+.selectedIcon {border:solid 5px #005aaa}
+
+.catalog-list>li {
+	margin-bottom: 10px;
+}
+
+
+body {margin: 0px; padding: 0px;  font: normal 13px Verdana; color:#000;} /*��� Opera ����� ������ height:100%, � ��� FF ������ */
+td {font: normal 13px Verdana, Arial; vertical-align: top;}
+th {font: bold 13px Verdana, Arial; vertical-align: top;}
+/*td.middle {vertical-align: middle;}*/
+a img {border:0px}
+p {padding:0px; margin: 9px 0px 9px 0px}
+.small, .small td {font: normal 11px Verdana, Arial;}
+.small p {margin: 5px 0px 5px 0px}
+.smaller, .smaller td {font: normal 9px Verdana, Arial;}
+.gray {color:#777}
+.red {color:#f00}
+.green {color:#090}
+/*table {position:relative}*/
+.h1, h1 {margin: 0px 0px 0px 0px; color: #0062b3; line-height:26px}
+.h1 span, h1 span {font-weight:normal}
+.h2, h2 {position:relative; font:normal 19px Verdana; margin: 15px 0px 9px 0px; padding: 0px 0px 0px 25px; background: url(../img/h2.gif) no-repeat 0px 5px; color:#000; }
+/*
+.h2 {font:normal 19px Verdana; margin:0px; }
+h3 {font:bold 17px Verdana; margin:0px; color:#000;}
+*/
+
+a {text-decoration:none;}
+a:link    {color: #03c;}
+a:visited {color: #03c;}
+a:hover   {color: #09f; }
+a:active  {color: #03c;}
+/*
+.ondark a         {color: #0af;}
+.ondark a:link    {color: #0af;}
+.ondark a:visited {color: #0af;}
+.ondark a:hover   {color: #fff; }
+.ondark a:active  {color: #0af;}
+*/
+.ondark a         {text-decoration:none;}
+.ondark a:link    {color: #00c4ff;}
+.ondark a:visited {color: #00c4ff;}
+.ondark a:hover   {color: #fff; text-decoration:underline;}
+.ondark a:active  {color: #fff; text-decoration:underline;}
+
+#page {width:970px; padding: 0px 0px 0px 0px; top:0px; text-align:left; position:relative; background: #fff; border: none;
+	-moz-border-radius: 9px; -webkit-border-radius:9px; border-radius:9px; 
+	-webkit-box-shadow:rgba(0,0,0,0.65) 0 3px 7px; -moz-box-shadow:rgba(0,0,0,0.65) 0 3px 7px; box-shadow:rgba(0,0,0,0.65) 0 3px 7px; 
+}
+
+#footer{width:970px; height: 100px; position:relative; background:#0062b3;  
+	-moz-border-radius-bottomleft:7px; -moz-border-radius-bottomright:7px;
+	-webkit-border-bottom-left-radius:7px; -webkit-border-bottom-right-radius:7px;
+	border-bottom-left-radius:7px;  border-bottom-right-radius:7px;
+}
+
+
+#below {width:970px; text-align:left; font: normal 11px Verdana, Arial;}
+
+
+.response {position: absolute; height:70px; width:250px; top:10px; right:20px; border: solid #00c4ff 1px}
+.response .text{position: absolute; height:70px; width:90px; top:0px; left:0px; font: normal 10px Verdana; color:#fff; text-align:right; padding-top:15px;}
+.response .link{position: absolute; height:70px; top:0px; left:90px;  text-align:left; padding:7px 0px 0px 10px; font: bold 15px Verdana; color:#00c4ff; }
+.response a{font: bold 15px Verdana;}
+
+#superMenu {position: absolute; left:430px; top:23px}
+#superMenu a.call, a.mail, a.msg, a.call_w, a.mail_w, a.msg_w{display:block; float:left; width:85px; height:32px; text-decoration:none;} 
+#superMenu a.call {background:url(../img/comm_call.png) no-repeat center;} 
+#superMenu a.mail {background:url(../img/comm_mail.png) no-repeat center;} 
+#superMenu a.msg{background:url(../img/comm_msg.png) no-repeat center;} 
+#superMenu a.call_w {background:url(../img/comm_call_w.png) no-repeat center;} 
+#superMenu a.mail_w {background:url(../img/comm_mail_w.png) no-repeat center;} 
+#superMenu a.msg_w{background:url(../img/comm_msg_w.png) no-repeat center;} 
+
+#superMenu a.call:hover, a.mail:hover, a.msg:hover, 
+a.call_w:hover, a.mail_w:hover, a.msg_w:hover {position:relative; top:-5px; outline: none;}
+    
+#superMenu_l {position: absolute; right:10px; top:10px}
+#superMenu_l a.login {display:block; float:left; width:19px; height:19px; margin-left: 10px; text-decoration:none} 
+#superMenu_l a.login {background:url(../img/login.gif) no-repeat center;} 
+#superMenu_l a.login:hover {position:relative; top:-2px;}
+
+
+/*######### ������� ����, ��������� ���� integral ##############*/
+
+.mainMenu {position:absolute; bottom:0px; left:20px} 
+
+ul#mainMenu {padding:0; margin:0; list-style: none inside none; font: bold 13px Verdana; color:#fff; white-space:nowrap; width:960px; height:34px; position:relative; z-index:2}
+
+ul#mainMenu li {float:left; position:relative;}
+
+ul#mainMenu a, ul#mainMenu span {text-decoration:none; display:block; padding: 7px 13px 11px 13px;} /*IE: height �� ���������, ����� �������� ��������� width*/
+
+ul#mainMenu a:link,
+ul#mainMenu a:visited,
+ul#mainMenu a:focus		{color:#fff;}
+ul#mainMenu a:hover		{background:url(../img/mainMenu.gif) repeat-x bottom; color:#fff;}
+ul#mainMenu a:active		{background:#fff; color:#0062b3;}
+ul#mainMenu span {color:#aaa;}
+
+/**************** ancestor ******************/
+ul#mainMenu a.ancestor:link,
+ul#mainMenu a.ancestor:visited,
+ul#mainMenu a.ancestor:focus	{background: #fff; color:#0062b3;}
+ul#mainMenu a.ancestor:hover    {background:#fff; color:#0062b3;}
+ul#mainMenu a.ancestor:active	{background:#fff;}	
+
+ul#mainMenu li.finish { height:34px; width:9px; border-left:solid 1px #e56e6e;}
+ul#mainMenu div.edit2 { position:absolute; top:1px; left:1px;}
+
+
+
+
+
+/*.header {min-width: 750px; height:165px; position:relative; top:0px; left:0px; background: #c9d1d9 url(images/headBg.gif) no-repeat right top;}*/
+/*.header {min-width: 750px; height:85px; position:relative; top:0px; left:0px;}*/
+#header  {width:970px; height:100px; position:relative;  background:#0062b3;} 
+
+.topLeft {background: url(../img/topLeft.gif) no-repeat; position:absolute; top:0px; left:0px; width:69px; height:94px}
+.topLeftMenu {position:absolute; top:0px; left:0px;}
+.topLeftShadow {background: url(../img/topLeftShadow.gif) no-repeat; position:absolute; top:29px; left:0px; width:64px; height:2px }
+
+.partners {position:absolute; top:46px; right:10px;  white-space:nowrap; text-align:right }
+.partners img, .partners2 img  {border:solid 1px; border-color: #fff #345 #345 #fff; margin-right:4px}
+
+.topMenu {border:0px; position:absolute; top:0px; left:0px;}/**/
+.topMenu div {height:31px; font:bold 14px Verdana; color:#005aaa; white-space:nowrap;}
+.topMenu div.W {background: #fff url(../img/topMenuW.gif) repeat-x top; padding-left:8px;}
+.topMenu div.WW {background: url(../img/topMenuWW.gif) no-repeat top; width:18px;}
+.topMenu div.WB {background: url(../img/topMenuWB.gif) no-repeat top; width:18px;}
+.topMenu div.BW {background: url(../img/topMenuBW.gif) no-repeat top; width:18px;}
+.topMenu div.B {background: #005aaa url(../img/topMenuB.gif) repeat-x top; color:#fff; padding-left:8px;}
+.topMenu div.rightB {background: url(../img/topMenuRightB.gif) no-repeat left top; width:518px;}
+.topMenu div.rightW {background: url(../img/topMenuRightW.gif) no-repeat left top; width:518px;}
+.topMenu div span, .topMenu div a { white-space:nowrap; line-height:25px}
+
+/*
+.mainMenu {position:absolute; bottom:-1px; right:0px} 
+.mainMenu td {vertical-align: middle; height:40px; text-align:center; font:bold 13px Verdana; }
+.mainMenu td.WB {background:#005aaa url(images/mainMenuWB.gif) no-repeat left top; width:20px;}
+.mainMenu td.B {background: #005aaa; color:#fff;padding: 0px 5px 0px 5px;line-height:13px;}
+.mainMenu td.BW {background:#fff url(images/mainMenuBW.gif) no-repeat left top; width:20px;}
+.mainMenu td.W {background: #fff; padding: 0px 5px 0px 5px;line-height:13px; color:#03c;}
+.mainMenu td.WW {background: #fff url(images/mainMenuWW.gif) no-repeat left top; width:20px;}
+.mainMenu td.rightB {background: #c9d1d9 url(images/mainMenuRightB.gif) no-repeat; width:25px; vertical-align:bottom; text-align:right}
+.mainMenu td.rightW {background: #eaeaea url(images/mainMenuRightW.gif) no-repeat; width:25px; vertical-align:bottom; text-align:right}
+
+.mainMenu td.left {text-align:left;vertical-align: top;}
+.mainMenu td.left div {position:relative; width:1px}
+.mainMenu td.left div img {position:absolute;top:0px; left:-19px;  }
+*/
+
+/*
+.subMenu {background:#aaa; position:relative; height:42px; text-align:center;}
+.subMenu .left {position:absolute; top:0px; left:0px; width:40px; height:42px}
+.subMenu td {vertical-align: middle;height:42px; text-align:center; padding:0px 0px 0px 0px; font:bold 13px Verdana; color:#0af}
+.subMenu td a, .subMenu td span {line-height:12px;}
+
+.subMenu td a:link,
+.subMenu td a:visited,
+.subMenu td a:focus		{color:#0062b3;}
+.subMenu td a:hover		{background:url(../img/mainMenu.gif) repeat-x bottom; color:#0062b3;}
+.subMenu td a:active		{background:#0062b3; color:#fff;}
+.subMenu td span {color:#aaa;}
+*/
+
+
+div.subMenu{position:relative; padding:10px 0px 0px 20px; border-bottom:solid #0062b3 3px; }
+ul#subMenu {padding:0; margin:0; list-style: none inside none; font: bold 13px Verdana; color:#fff; white-space:nowrap; height:34px; position:relative; z-index:2}
+
+ul#subMenu li {float:left; position:relative;}
+
+ul#subMenu a, ul#subMenu span {text-decoration:none; display:block; padding: 7px 13px 11px 13px;} /*IE: height �� ���������, ����� �������� ��������� width*/
+
+ul#subMenu a:link,
+ul#subMenu a:visited,
+ul#subMenu a:focus		{color:#0062b3;}
+ul#subMenu a:hover		{background:url(../img/subMenu.gif) repeat-x bottom; color:#0062b3;}
+ul#subMenu a:active		{background:#0062b3; color:#fff;}
+ul#subMenu span {color:#aaa;}
+
+/**************** ancestor ******************/
+ul#subMenu a.ancestor:link,
+ul#subMenu a.ancestor:visited,
+ul#subMenu a.ancestor:focus	{background: #0062b3; color:#fff;}
+ul#subMenu a.ancestor:hover    {background:#0062b3; color:#fff;}
+ul#subMenu a.ancestor:active	{background:#0062b3;}	
+
+ul#subMenu div.edit2 { position:absolute; top:1px; left:1px;}
+
+
+.bannerPlace {padding:20px 20px 0px 20px;}
+
+/*
+.subMenu {background:#005aaa url(images/subMenuBg.gif) repeat-x; position:relative; height:42px; text-align:center;}
+/*.subMenu .left {background: url(images/subMenuLeft.gif) no-repeat; position:absolute; top:0px; left:0px; width:40px; height:42px}*/
+/*.subMenu .left {position:absolute; top:0px; left:0px; width:40px; height:42px}
+.subMenu td {vertical-align: middle;height:42px; text-align:center; font:bold 13px Verdana; color:#0af}
+.subMenu td.sep {background: url(images/subMenuSep.gif) no-repeat 12px 5px; width:30px;}
+.subMenu td a, .subMenu td span {line-height:12px;}
+*/
+
+.contents td.col0 {background:#fff;  text-align:left; vertical-align:top;}
+.contents td.col1 {background:#fff; padding: 20px 20px 40px 0px}
+.contents td.col2 {background:#fff; border:solid 2px #005aaa; border-width: 0px 0px 0px 2px}
+.contents .main {position:relative; padding: 30px 30px 20px 0px; }
+
+
+.col1 ul.list {padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; font-weight:bold; list-style: none outside none; line-height:12px; color:#678}
+.col1 ul.list li {padding: 3px 0px 7px 3px; background:url(../img/list.gif) no-repeat top left}/**/
+.col1 ul.none li {background:none}
+.col1 ul.list li span {color:#03c}
+
+.col1 ul.list li ul.subList {padding:0px; margin: 2px 0px 0px 18px; font-weight:normal; color:#678; line-height:11px; 	list-style: square outside url(../img/subList.gif); font-size:11px;}
+.col1 ul.list li ul.subList li {padding: 2px 0px 2px 0px; background-image:none; }
+
+
+/*
+.col1 ol.list {padding: 0px 0px 0px 20px; margin: 0px 0px 0px 5px; font-weight:bold; list-style: decimal outside; line-height:12px}
+.col1 ol.list li {padding: 1px 0px 3px 0px; margin:0px}
+*/
+
+
+.column .white, .column .gray {border-bottom:solid 2px #005aaa;font-size:11px;}
+.column .cont {padding: 9px 5px 20px 12px;}
+.rubric td {padding: 4px 9px 0px 14px;  height:27px; font: bold 13px Verdana; color:#005aaa; }
+.rubric td.right {width:15px; height:27px;}
+
+.contents .column .white {background:#fff;}
+.contents .column .white table.rubric td {background:url(../img/rubricWBg.gif) repeat-x;}
+.contents .column .white table.rubric td.right {background:url(../img/rubricWRight.gif) no-repeat;}
+
+.contents .column .gray {background:#dfe6ed; }
+.contents .column .gray table.rubric td {background:url(../img/rubricGBg.gif) repeat-x;}
+.contents .column .gray table.rubric td.right {background:url(../img/rubricGRight.gif) no-repeat;}
+
+.footer {height:112px; background:#005aaa url(../img/footerBg.gif) repeat-x; position:relative; padding:0px; margin-bottom:33px;}
+.footer td { color:#c9d1d9 ; font-size: 11px; padding-left:13px; vertical-align: middle; white-space:nowrap;}
+.footer .right {width:44;height:112px; background:url(../img/footerRight.gif) no-repeat;position:absolute; right:0px;}
+
+
+/******************************* Photogallery3.tpl **********************************/
+div.previewTrain {float:left; margin: 0px 7px 2px 7px; width: 120px; height: 170px; text-align:center; position:relative; font-size:11px;}
+div.previewTrain img {margin-bottom:3px;  }
+
+
+.buttLeft {width: 23px; height: 23px; display: block; background-repeat: no-repeat;margin-right:4px}
+.buttLeft {float: left}
+a.buttLeft:link, 
+a.buttLeft:visited, 
+a.buttLeft:active {background-image: url(../img/buttLeft.png)}
+a.buttLeft:hover { background-image: url(../img/buttLeftOver.png) }
+a.buttLeft span {background-image: url(../img/buttLeftOver.png); display: block; width: 0px; height: 0px; }/* span - preload hover image */
+span.buttLeft {background-image: url(../img/buttLeftNo.png)}
+
+.buttRight {width: 23px; height: 23px; display: block; background-repeat: no-repeat;margin-right:4px}
+.buttRight {float: left}
+a.buttRight:link, 
+a.buttRight:visited, 
+a.buttRight:active {background-image: url(../img/buttRight.png)}
+a.buttRight:hover { background-image: url(../img/buttRightOver.png) }
+a.buttRight span {background-image: url(../img/buttRightOver.png); display: block; width: 0px; height: 0px; }/* span - preload hover image */
+span.buttRight {background-image: url(../img/buttRightNo.png)}
+
+a.buttTop {width: 23px; height: 23px; display: block; background-repeat: no-repeat;margin-right:4px}
+a.buttTop {float: left}
+a.buttTop:link, 
+a.buttTop:visited, 
+a.buttTop:active {background-image: url(../img/buttTop.png)}
+a.buttTop:hover { background-image: url(../img/buttTopOver.png) }
+a.buttTop span {background-image: url(../img/buttTopOver.png); display: block; width: 0px; height: 0px; }/* span - preload hover image */
+
+a.buttEnlarge {width: 23px; height: 23px; display: block; background-repeat: no-repeat;margin-right:4px}
+a.buttEnlarge {float: left}
+a.buttEnlarge:link, 
+a.buttEnlarge:visited, 
+a.buttEnlarge:active {background-image: url(../img/buttEnlarge.png)}
+a.buttEnlarge:hover { background-image: url(../img/buttEnlargeOver.png) }
+a.buttEnlarge span {background-image: url(../img/buttEnlargeOver.png); display: block; width: 0px; height: 0px; }/* span - preload hover image */
+
+img.frame  {border:1px solid #333; border-left-color:#ccc; border-top-color:#ccc; }
+img.wide  {border-width:2px}
+
+
+/******************************* End of Photogallery3.tpl **********************************/
+
+
+/******************************* PhotoDiafilm.tpl **********************************/
+.buttLaquo {width: 29px; height: 23px; display: block; background-repeat: no-repeat;margin-right:4px}
+.buttLaquo {float: left}
+a.buttLaquo:link, 
+a.buttLaquo:visited, 
+a.buttLaquo:active {background-image: url(../img/buttLaquo.gif)}
+a.buttLaquo:hover { background-image: url(../img/buttLaquoOver.gif) }
+a.buttLaquo span {background-image: url(../img/buttLaquoOver.gif); display: block; width: 0px; height: 0px; }/* span - preload hover image */
+span.buttLaquo {background-image: url(../img/buttLaquoNo.gif)}
+
+.buttRaquo {width: 29px; height: 23px; display: block; background-repeat: no-repeat;margin-right:4px}
+.buttRaquo {float: left}
+a.buttRaquo:link, 
+a.buttRaquo:visited, 
+a.buttRaquo:active {background-image: url(../img/buttRaquo.gif)}
+a.buttRaquo:hover { background-image: url(../img/buttRaquoOver.gif) }
+a.buttRaquo span {background-image: url(../img/buttRaquoOver.gif); display: block; width: 0px; height: 0px; }/* span - preload hover image */
+span.buttRaquo {background-image: url(../img/buttRaquoNo.gif)}
+/******************************* end of PhotoDiafilm.tpl **********************************/
+
+
+.writeMessage {background:#c9d1d9; border:solid 1px; border-color: #fff #aaa  #aaa #fff; width:400px; padding: 33px 9px 33px 9px; font: normal 11px Verdana;}
+.writeMessage textarea, .form input {background: #dee7ef; border:solid 1px; border-color: #aaa #fff #fff #aaa; font: normal 11px Verdana; margin-bottom:5px}
+.writeMessage textarea {overflow: hidden !important;}
+.writeMessage input.submit {border-color: #fff #aaa  #aaa #fff; background:#c9d1d9 url(../index.html); position:relative; top:10px;}
+
+
+.prevnext {color:#999; margin: 20px 0px 0px 0px}
+.parts {color:#fff; margin: 2px 0px 30px 0px;  font:bold 1px Verdana;}
+.parts a, .parts span {padding: 0px 1px 1px 1px; border:solid 1px #999; border-width: 0px 1px 1px 0px; font:bold 11px Verdana;  line-height:22px; background:#fff url(../img/partBg.gif) top left no-repeat}
+.parts span {; position:relative; top:-2px; color:#000}
+
+/*
+dfe6ed      ������-�����
+c9d1d9      ����� (���)
+
+678         ����� ����� (���������)
+
+
+bbeeff
+9df         ������-����� ���
+005aaa      �����
+03c         ������ �� ������� 
+0af         ������ �� ������
+678         ���������
+*/

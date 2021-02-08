@@ -1,0 +1,56 @@
+
+/**************  Статистика *********************/
+.bannerStat {padding:9px; background:#D4D0C8;  border:1px solid; border-color:#fff #808080 #808080 #fff; }/**/
+
+/*.bannerStat table {width:200px}*/
+.bannerStat .result td {color:#000}
+
+
+.bannerStat .result td.chart6, .bannerStat .result td.chart7 {text-align:left; padding-top:4}
+.bannerStat .result td.chart6 div, .bannerStat .result td.chart7 div {display : block; height:7px}
+
+.bannerStat .result td.chart7 {border-left:solid 1px #d00;}
+.bannerStat .result td.chart7 div {background: #d00;}
+
+.bannerStat .result td.chart6 {border-left:solid 1px #a44;}
+.bannerStat .result td.chart6 div {background: #a44;}
+
+.bannerStat .result td.percent6 {text-align:right; color:#a44;}
+.bannerStat .result td.percent7 {text-align:right; color:#d00;}        
+
+.bannerStat .color6 {padding: 0px 3px 2px 3px; color:#fff;  background:#a44;}
+.bannerStat .color7 {padding: 0px 5px 2px 5px; color:#fff; background:#d00; }
+
+.bannerStat .result td {font:normal 11px Verdana; vertical-align:top;}
+
+
+.bannerStat .result a, 
+.bannerStat .result a:link, 
+.bannerStat .result a:visited {color:#00f; text-decoration:none;}
+.bannerStat .result a:hover {color:#39f}
+.bannerStat .result a:active {color:#00f}
+
+/************** Отображение *********************/
+.bannerOutput table.horizMenu td {font: normal 9px Verdana; color:#000; position:relative; border-left:solid 1px #ccc;padding: 0px 10px 0px 10px; text-align:center; vertical-align:middle; text-decoration:none; }
+
+/* Изначально вывод баннеров происходил с закруглениями
+.bannerOutput .bannerBox {position:relative; border-radius:7px; -webkit-border-radius:7px; -moz-border-radius:7px; -khtml-border-radius:7px;}
+.bannerOutput .bannerBox img {border-radius:7px; -webkit-border-radius:7px; -moz-border-radius:7px; -khtml-border-radius:7px;}
+.bannerOutput .bannerBox .bannerCaptionBg {position:absolute; bottom:0px; width:100%; opacity:0.4; background:#000000; height:22px; border-radius:7px 7px 0 0; -webkit-border-radius:7px 7px 0 0; -moz-border-radius:7px 7px 0 0; -khtml-border-radius:7px 7px 0 0;	}
+.bannerOutput .bannerBox .bannerCaption {position:absolute; bottom:5px; left:11px; color:ffffff; font-weight:bold}
+*/
+
+
+.bannerOutput .bannerBox {position:relative;}
+.bannerOutput .bannerBox .bannerCaptionBg {position:absolute; bottom:0px; width:100%; opacity:0.4; background:#000000; height:22px;}
+.bannerOutput .bannerBox .bannerCaption {position:absolute; bottom:5px; left:11px; color:ffffff; font-weight:bold}
+
+
+
+
+/*.bannerOutput table.horizMenu a:link,
+.bannerOutput table.horizMenu a:visited,
+.bannerOutput table.horizMenu a:focus	{color:#f60}
+.bannerOutput table.horizMenu a:hover,
+.bannerOutput table.horizMenu a:active  {color:#fc0}
+*/
