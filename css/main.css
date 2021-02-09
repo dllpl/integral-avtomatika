@@ -33,7 +33,7 @@ p {padding:0px; margin: 9px 0px 9px 0px}
 .red {color:#f00}
 .green {color:#090}
 /*table {position:relative}*/
-.h1, h1 {margin: 0px 0px 0px 0px; color: #0062b3; line-height:26px}
+.h1, h1 {margin: 0px 0px 0px 0px; color: #0062b3; line-height:26px; font: normal 13px Verdana}
 .h1 span, h1 span {font-weight:normal}
 .h2, h2 {position:relative; font:normal 19px Verdana; margin: 15px 0px 9px 0px; padding: 0px 0px 0px 25px; background: url(../img/h2.gif) no-repeat 0px 5px; color:#000; }
 /*
